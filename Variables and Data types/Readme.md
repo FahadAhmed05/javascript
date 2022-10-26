@@ -82,7 +82,7 @@ gets an error
 ## Adding Number
 ```sh
  var sum = 10 + 10;
- console.log(20);
+ console.log(sum);
  ```
  ## Substracting Numbers
 
