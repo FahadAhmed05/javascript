@@ -47,12 +47,12 @@ Now Another Example of Initial Variables
  
  ```sh
  Inititailized these three variables
- ```
+
 
 1.  var a = 5;
 2. var b = 10;
 3. var c = "This is sring";
-
+ ```
 ```sh
 Do not change code below this line
 ```
