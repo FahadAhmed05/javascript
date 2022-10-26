@@ -46,23 +46,35 @@ Now Another Example of Initial Variables
 ## UnInitialized Variables
  
  ```sh
- Inititailized these three variables
+Inititailized these three variables
 
-
-1.  var a = 5;
+1. var a = 5;
 2. var b = 10;
 3. var c = "This is sring";
  ```
 ```sh
 Do not change code below this line
-```
 
 1. a = a + 1;
 2. b = b + 5;
 3. c = c + "String!";
 
+```
 ## Case sensitivity in variables
 
 ```sh
 Declaration
+
+1. StUdLyCapVar;
+2. properCamelCase;
+3. TitleCaseOver;
+```
+```sh
+Assignment
+
+1. StUdLyCapVar = 10;
+2. properCamelCase = "A String";
+3. TitleCaseOver = 99000;
+
+gets an error
 ```
