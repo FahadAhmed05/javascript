@@ -84,3 +84,4 @@ console.log('hello world')
 // firstLetterOfLastName = lastName[1];
 
 // console.log(firstLetterOfLastName);
+

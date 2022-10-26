@@ -128,7 +128,7 @@ var myVar = 87;
 ```sh
 var ourDecimal = 6.7;
 
-var ourDecimal = 0.0009;  ???????
+var ourDecimal = 0.0009;  
 
 ```
 
