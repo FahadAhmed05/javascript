@@ -205,3 +205,74 @@ c = c * 7;]         =>      c *= 7;
 b = 9 / b;          =>      b /= 9;
 c = c / 7;]         =>      c /= 7;
 ```
+
+## Constructing Strings with variables
+
+Example 
+
+```sh
+var myName = "Fahad";
+var myStr = "My Name is " + myName + " and i am well!";
+console.log(myStr);
+```
+
+## Appending Variables to Strings
+
+```sh
+var someAdjective = "worthwhile";
+var myStr = "Learning to code is ";
+
+myStr+= someAdjective
+```
+
+## Find Length of String
+
+Example
+```sh
+var firstNameLength = 0;
+var firstName = "Ada";
+
+firstNameLength = firstName.length;
+```
+Setup
+```sh
+var lastNameLength = 0;
+var lastName = "LoveLace";
+```
+My Code
+```sh
+lastNameLength = lastName.length;
+console.log(lastNameLength);
+```
+Finding the Length of any String???
+
+## Bracket Notation To Find First Character in String
+
+Example
+```sh
+var firstLetterOfFirstName = "";
+var firstName = "Ada";
+
+firstLetterOfFirstName = firstName[0];
+```
+Setup
+```sh
+var firstLetterOfLastName = "";
+var lastName = "LoveLace";
+```
+
+My Code
+```sh
+
+firstLetterOfLastName = lastName[0];
+
+console.log(firstLetterOfLastName);
+```
+## String Immutability
+
+Setup
+```sh
+var myStr = "Hello world!";
+
+myStr = "Hello world";
+```

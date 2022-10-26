@@ -63,3 +63,24 @@ console.log('hello world')
 
 //             console.log(a);
 
+// var myName = "Fahad";
+// var myStr = "My Name is " + myName + " and i am well!";
+// console.log(myStr);
+
+// var someAdjective = "worthwhile";
+// var myStr = "Learning to code is ";
+
+// console.log( someAdjective+=myStr);
+
+// var lastNameLength = 0;
+// var lastName = "LoveLaceTwo";
+
+// lastNameLength = lastName.length;
+// console.log(lastNameLength);
+
+// var firstLetterOfLastName = "";
+// var lastName = "LoveLace";
+
+// firstLetterOfLastName = lastName[1];
+
+// console.log(firstLetterOfLastName);
