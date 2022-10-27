@@ -5,11 +5,11 @@
 ``sh
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
     var result = "";
+
+    result += "The "  + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb;
+    return result;
 };
 
-return result;
 
-console.log(wordBlanks("dogs", "big", "ran", "quickly"));
-
-Cant`t Resolve
+console.log(wordBlanks("dog", "big", "ran", "quickly"));
 ```
