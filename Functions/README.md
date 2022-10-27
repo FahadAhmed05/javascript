@@ -155,7 +155,7 @@ function proccessArgs(num){
   return (num + 3) / 5;
 }
 
-proccessed = proccessArgs();
+proccessed = proccessArgs(7);
 ```
 
 ## Stand in line
