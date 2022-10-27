@@ -39,7 +39,6 @@
 
 // console.log(timesFive(5));
 
-
 // function addFive(sum){
 //    return sum += 5;
 // };
@@ -52,6 +51,5 @@
 // }
 
 // proccessed = proccessArgs(7)
-
 
 // console.log(proccessed);
