@@ -46,3 +46,52 @@ function addition(num) {
 
 # num++ returns the value of a before incrementing. And ++num returns the value of num after it has been incremented. 
 ```
+
+## Buggy Code (Part 5)
+
+Description : `nothing`
+
+### Example 
+```sh
+printArray(1) ➞ [1]
+
+printArray(3) ➞ [1, 2, 3]
+
+printArray(6) ➞ [1, 2, 3, 4, 5, 6]
+```
+### Solution ?
+```sh
+function printArray(number) {
+  var newArray = [];
+
+  for(var i = 1; i <= number; i++) {
+    newArray.push(i);
+  }
+
+  return newArray;
+}
+```
+
+## Sum of Polygon Angles
+
+Description : Given an n-sided regular polygon n, return the total sum of internal angles (in degrees).
+
+### Example
+```sh
+sumPolygon(3) ➞ 180
+
+sumPolygon(4) ➞ 360
+
+sumPolygon(6) ➞ 720
+```
+
+### Solution 
+```sh
+function sumPolygon(n) {
+	const polygon = (n-2) * (180);
+	
+	return polygon
+}
+
+**Bracket issue**
+```

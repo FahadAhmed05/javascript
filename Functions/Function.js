@@ -44,11 +44,11 @@
 // };
 // console.log(addFive(5))
 
-var proccessed = 0;
+// var proccessed = 0;
 
-function proccessArgs(num){
-  return (num + 3) / 5;
-}
+// function proccessArgs(num){
+//   return (num + 3) / 5;
+// }
 
 // proccessed = proccessArgs(7)
 
@@ -56,4 +56,5 @@ function proccessArgs(num){
 
 // var firstName = "Ada";
 // var lastLetterOfFirstName = firstName[firstName.length - 1];
+
 
