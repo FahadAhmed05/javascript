@@ -97,3 +97,7 @@ function sumPolygon(n) {
 ```
 
 ## Gitignore
+
+Q. Why do we create gitignore file?
+
+Ans. We can create a .gitignore file in our repository's root directory to tell Git which files and directories to ignore when we make a commit. To share the ignore rules with other users who clone the repository, commit the .gitignore file in to our repository. 
