@@ -42,8 +42,7 @@ function addition(num) {
 	
 	return increment
 }
-/* But `num++` is not working???
+# But num++ is not working???
 
- `num++` returns the value of a before incrementing. And `++num` returns the value of `num` after it has been incremented. 
- */
+# num++ returns the value of a before incrementing. And ++num returns the value of num after it has been incremented. 
 ```
