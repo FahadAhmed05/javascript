@@ -95,3 +95,5 @@ function sumPolygon(n) {
 
 **Bracket issue**
 ```
+
+## Gitignore

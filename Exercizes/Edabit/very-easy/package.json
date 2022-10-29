@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "scripts": {
+    "jest":"node --experimental-vm-modules   ./node_modules/jest/bin/jest.js --silent"
+  },
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
+}
