@@ -209,20 +209,6 @@ In the above example I have learned Truth Table
 <!DOCTYPE html>
 <html>
     <head>
-<style>
-table, th, td {
-  border:1px solid black;
-  text-align: center;
-}
-th{
-    padding: 8px;
-    font-size: 24px;
-}
-td{
-    padding: 8px;
-    font-size: 22px;
-}
-</style>
 </head>
 <body>
 
@@ -272,26 +258,10 @@ td{
 </html>
 
 
-<!DOCTYPE html>
-<html>
-    <head>
-<style>
-table, th, td {
-  border:1px solid black;
-  text-align: center;
-}
-th{
-    padding: 8px;
-    font-size: 24px;
-}
-td{
-    padding: 8px;
-    font-size: 22px;
-}
-</style>
-</head>
-<script src="../very-easy/index.js"></script>
-<body>
+
+
+
+
 
 <h2>Truth Table for a Three Variable Proposition</h2>
 
@@ -369,7 +339,6 @@ td{
     <td>F</td>
 </tr>
   </table>
-</body>
-</html>
+
 
 
