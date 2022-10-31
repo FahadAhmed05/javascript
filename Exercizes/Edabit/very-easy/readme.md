@@ -206,11 +206,6 @@ and(false, false) ➞ false
 In the above example I have learned Truth Table
 
 ### Truth Table for a Two Variable Proposition
-<!DOCTYPE html>
-<html>
-    <head>
-</head>
-<body>
 
 <table style="width:100%">
   <tr>
@@ -254,8 +249,7 @@ In the above example I have learned Truth Table
     <td>F</td>
 </tr>
 </table>
-</body>
-</html>
+
 
 
 
