@@ -119,7 +119,10 @@ points(38, 8) ➞ 100
 ### Solution
 
 ```sh
+function points(twoPointers, threePointers) {
 
+  return (twoPointers*2) + (threePointers*3);
+}
 ```
 
 ## Basic Variable Assignment
