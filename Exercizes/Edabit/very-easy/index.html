@@ -1,103 +1,148 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<style>
-    html{
-        text-align: center;
-    }
-table, th, td {
-  border:1px solid black;
-}
-th{
-    padding: 8px;
-    font-size: 24px;
-}
-td{
-    padding: 8px;
-    font-size: 22px;
-}
-</style>
+
+<head>
+    <style>
+        html {
+            text-align: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th {
+            padding: 8px;
+            font-size: 24px;
+        }
+
+        td {
+            padding: 8px;
+            font-size: 22px;
+        }
+    </style>
 </head>
 <script src="../very-easy/index.js"></script>
+
 <body>
 
-<h2>Truth Table</h2>
-<h2>Truth Table for a Three Variable Proposition</h2>
+    <h2>Truth Table</h2>
+    <h2>Here are the important differences between =, ==, and ===</h2>
 
-<table style="width:100%">
-    <tr>
-      <th>P</th>
-      <th>Q</th>
-      <th>R</th>
-      <th>!Q</th>
-      <th>P & !Q</th>
-      <th>R or (P & !Q)</th>
-    </tr>
-    <tr>
-    <td>T</td>
-    <td>T</td>
-    <td>T</td>
-    <td>F</td>
-    <td>F</td>
-    <td>T</td>
-  </tr>
-  <tr>
-      <td>T</td>
-      <td>T</td>
-      <td>F</td>
-      <td>F</td>
-      <td>F</td>
-      <td>F</td>
-  </tr>
-  <tr>
-      <td>T</td>
-      <td>F</td>
-      <td>T</td>
-      <td>T</td>
-      <td>T</td>
-      <td>T</td>
-  </tr>
-  <tr>
-      <td>T</td>
-      <td>F</td>
-      <td>F</td>
-      <td>T</td>
-      <td>T</td>
-      <td>T</td>
-  </tr>
-  <tr>
-      <td>F</td>
-    <td>T</td>
-    <td>T</td>
-    <td>F</td>
-    <td>F</td>
-    <td>T</td>
-</tr>
-<tr>
-    <td>F</td>
-    <td>T</td>
-    <td>F</td>
-    <td>F</td>
-    <td>F</td>
-    <td>F</td>
-</tr>
-<tr>
-    <td>F</td>
-    <td>F</td>
-    <td>T</td>
-    <td>T</td>
-    <td>F</td>
-    <td>T</td>
-</tr>
-<tr>
-    <td>F</td>
-    <td>F</td>
-    <td>F</td>
-    <td>T</td>
-    <td>F</td>
-    <td>F</td>
-</tr>
-  </table>
+    <table style="width:100%">
+        <tr>
+            <th>=</th>
+            <th>==</th>
+            <th>===</th>
+        </tr>
+        <tr>
+            <td>= in JavaScript is used for assigning values to a variable.</td>
+            <td>== in JavaScript is used for comparing two variables, but it ignores the datatype of variable.</td>
+            <td>=== is used for comparing two variables, but this operator also checks datatype and compares two values.
+            </td>
+        </tr>
+        <tr>
+            <td>It is called as assignment operator</td>
+            <td>It is called as comparison operator</td>
+            <td>It is also called as comparison operator</td>
+        </tr>
+        <tr>
+            <td>The assignment operator can evaluate to the assigned value</td>
+            <td>Checks the equality of two operands without considering their type.</td>
+            <td>Compares equality of two operands with their types.</td>
+        </tr>
+        <tr>
+            <td>It does not return true or false</td>
+            <td>Return true if the two operands are equal. It will return false if the two operands are not equal.</td>
+            <td>It returns true only if both values and data types are the same for the two variables.</td>
+        </tr>
+        <tr>
+            <td>= simply assign one value of variable to another one.</td>
+            <td>== make type correction based upon values of variables.</td>
+            <td>=== takes type of variable in consideration.</td>
+        </tr>
+        <tr>
+            <td>== will not compare the value of variables at all.</td>
+            <td>The == checks for equality only after doing necessary conversations.</td>
+            <td>If two variable values are not similar, then === will not perform any conversion.</td>
+        </tr>
+    </table>
+    <table style="width:100%">
+        <tr>
+            <th>P</th>
+            <th>Q</th>
+            <th>R</th>
+            <th>!Q</th>
+            <th>P & !Q</th>
+            <th>R or (P & !Q)</th>
+        </tr>
+        <tr>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+            <td>F</td>
+            <td>F</td>
+            <td>T</td>
+        </tr>
+        <tr>
+            <td>T</td>
+            <td>T</td>
+            <td>F</td>
+            <td>F</td>
+            <td>F</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>T</td>
+            <td>F</td>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+        </tr>
+        <tr>
+            <td>T</td>
+            <td>F</td>
+            <td>F</td>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td>T</td>
+            <td>T</td>
+            <td>F</td>
+            <td>F</td>
+            <td>T</td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td>T</td>
+            <td>F</td>
+            <td>F</td>
+            <td>F</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td>F</td>
+            <td>T</td>
+            <td>T</td>
+            <td>F</td>
+            <td>T</td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td>F</td>
+            <td>F</td>
+            <td>T</td>
+            <td>F</td>
+            <td>F</td>
+        </tr>
+    </table>
 </body>
-</html>
 
+</html>

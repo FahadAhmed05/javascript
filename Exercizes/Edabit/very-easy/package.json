@@ -1,6 +1,8 @@
 {
   "type": "module",
+  "main":"index.js",
   "scripts": {
+    "start":"node index.js",
     "jest":"node --experimental-vm-modules   ./node_modules/jest/bin/jest.js --silent"
   },
   "devDependencies": {

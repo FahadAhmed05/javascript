@@ -335,4 +335,221 @@ In the above example I have learned Truth Table
   </table>
 
 
+## Fix the Expression
 
+Description : Fix the code in the Code tab so the function returns true if and only if x is equal to 7.
+
+### Example
+```sh
+isSeven(4) ➞ false
+
+isSeven(9) ➞ false
+
+isSeven(7) ➞ true
+```
+### Solution
+```sh
+ function isSeven(x) {
+	return x == "7" ? true : false;
+}
+```
+1. This mark (?) is JS is called Conditional (ternary) operator.
+
+## Profitable Gamble
+
+Description : Create a function that takes three arguments `prob`, `prize`, `pay` and returns `true` if `prob * prize > pay;` otherwise return false.
+
+### Example
+```sh
+profitableGamble(0.2, 50, 9) ➞ true
+
+profitableGamble(0.9, 1, 2) ➞ false
+
+profitableGamble(0.9, 3, 2) ➞ true
+```
+### Solution
+```sh
+function profitableGamble(prob, prize, pay) {
+	return (prob * prize) > pay ? true : false
+}
+```
+## FPS
+
+1. Apart from that I also learned about fps
+
+
+Stands for "Frames Per Second." FPS is used to measure frame rate – the number of consecutive full-screen images that are displayed each second. It is a common specification used in video capture and playback and is also used to measure video game performance.
+
+### Frames Per Second
+Description : Create a function that returns the number of frames shown in a given number of minutes for a certain FPS.
+
+### Example
+```sh
+frames(1, 1) ➞ 60
+
+frames(10, 1) ➞ 600
+
+frames(10, 25) ➞ 15000
+```
+
+### Solution
+```sh
+function frames(minutes, fps) {
+    const mint = minutes * 60
+    return mint * fps	
+}
+```
+
+## Miserable Parody of a Calculator
+Description : Create a function that will handle simple math expressions. The input is an expression in the form of a string.
+
+### Example
+```sh
+calculator("23+4") ➞ 27
+
+calculator("45-15") ➞ 30
+
+calculator("13+2-5*2") ➞ 5
+
+calculator("49/7*2-3") ➞ 11
+```
+### Solution
+```sh
+function calculator(str) {
+	 return (eval(str))
+```
+
+## Buggy Code (Part 4)
+Description : Emmy has written a function that returns a greeting to users. However, she's in love with Mubashir, and would like to greet him slightly differently. She added a special case in her function, but she made a mistake.
+
+### Example 
+```sh
+greeting("Matt") ➞ "Hello, Matt!"
+
+greeting("Helen") ➞ "Hello, Helen!"
+
+greeting("Mubashir") ➞ "Hello, my Love!"
+```
+### Solution
+```sh
+function greeting(name) {
+  if(name == "Mubashir") {
+    return "Hello, my Love!";
+  }
+  return "Hello, " + name + "!";
+}
+```
+
+## Two Makes Ten
+Description : Create a function that takes two arguments. Both arguments are integers, `a` and `b`. Return `true` if one of them is `10` or if their sum is `10`
+
+### Example
+```sh
+makesTen(9, 10) ➞ true
+
+makesTen(9, 9) ➞ false
+
+makesTen(1, 9) ➞ true
+```
+
+### Solution
+
+```sh
+function makesTen(a, b) {
+	if((a + b) == 10 || a == 10 || b == 10){
+    return true
+  }else{
+    return false
+  }
+}
+```
+## Let's Fuel Up!
+Description : A vehicle needs 10 times the amount of fuel than the distance it travels. However, it must always carry a minimum of 100 fuel before setting off.
+
+Create a function which calculates the amount of fuel it needs, given the distance.
+
+### Example
+```sh
+calculateFuel(15) ➞ 150
+
+calculateFuel(23.5) ➞ 235
+
+calculateFuel(3) ➞ 100
+```
+
+### Solution
+```sh
+function calculateFuel(n) {
+  if( n*10 < "100"){
+    return 100
+  }
+	return n * 10 
+}
+```
+
+### == vs === in js 
+### Here are the important differences between =, ==, and ===
+
+<table style="width:100%">
+    <tr>
+      <th>=</th>
+      <th>==</th>
+      <th>===</th>
+    </tr>
+    <tr>
+    <td>= in JavaScript is used for assigning values to a variable.</td>
+    <td>== in JavaScript is used for comparing two variables, but it ignores the datatype of variable.</td>
+    <td>=== is used for comparing two variables, but this operator also checks datatype and compares two values.</td>
+  </tr>
+  <tr>
+      <td>It is called as assignment operator</td>
+      <td>It is called as comparison operator</td>
+      <td>It is also called as comparison operator</td>
+  </tr>
+  <tr>
+      <td>The assignment operator can evaluate to the assigned value</td>
+      <td>Checks the equality of two operands without considering their type.</td>
+      <td>Compares equality of two operands with their types.</td>
+  </tr>
+  <tr>
+      <td>It does not return true or false</td>
+      <td>Return true if the two operands are equal. It will return false if the two operands are not equal.</td>
+      <td>It returns true only if both values and data types are the same for the two variables.</td>
+  </tr>
+  <tr>
+      <td>= simply assign one value of variable to another one.</td>
+    <td>== make type correction based upon values of variables.</td>
+    <td>=== takes type of variable in consideration.</td>
+</tr>
+<tr>
+    <td>== will not compare the value of variables at all.</td>
+    <td>The == checks for equality only after doing necessary conversations.</td>
+    <td>If two variable values are not similar, then === will not perform any conversion.</td>
+</tr>
+  </table>
+
+
+## primitive vs non-primitive
+### Primitive :- (String,Boolean,Number,BigInt,Null,Undefined,Symbol )
+
+### Examples
+1. String (String is the collection of characters)
+2. Boolean
+3. Number
+4. BigInt
+5. Null
+6. Undefine
+7. Symbol
+8. Object
+
+
+### (Non-Primitive or Reference ) :- Object (array, functions) also called object references. 
+
+### Examples
+1. Strings
+2. Arrays
+3. Classes
+4. Interface
+5. Object literals
+6. functions
+7. Dates
