@@ -101,3 +101,174 @@ function sumPolygon(n) {
 Q. Why do we create gitignore file?
 
 Ans. We can create a .gitignore file in our repository's root directory to tell Git which files and directories to ignore when we make a commit. To share the ignore rules with other users who clone the repository, commit the .gitignore file in to our repository. 
+
+## Basketball Points
+
+Description : You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, find the final points for the team and return that value.
+
+### Example
+
+```sh
+points(1, 1) ➞ 5
+
+points(7, 5) ➞ 29
+
+points(38, 8) ➞ 100
+```
+
+### Solution
+
+```sh
+
+```
+
+## Basic Variable Assignment
+
+Description : A student learning JavaScript was trying to make a function. His code should concatenate a passed string `name` with string `"Edabit"` and store it in a variable called `result`. He needs your help to fix this code.
+
+### Example
+
+```sh
+ameString("Mubashir") ➞ "MubashirEdabit"
+
+nameString("Matt") ➞ "MattEdabit"
+
+nameString("javaScript") ➞ "javaScriptEdabit"
+```
+
+### Solution
+```sh
+function nameString(name){
+	let b = ("Edabit")
+
+	const result = (name + b);
+
+  	return result
+} 
+```
+
+### less than 100
+
+Description : Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+
+### Example 
+```sh
+lessThan100(22, 15) ➞ true
+// 22 + 15 = 37
+
+lessThan100(83, 34) ➞ false
+// 83 + 34 = 117
+
+lessThan100(3, 77) ➞ true
+```
+
+### Solution
+```sh
+function lessThan100(a, b){
+  if(a + b < 100){
+    return true
+  }else{
+    return false
+  }
+}
+```
+
+## Using the "&&" operator
+
+Description : JavaScript has a logical operator &&. The && operator takes two boolean values, and returns true if both values are true.
+
+### Example
+```sh
+and(true, false) ➞ false
+
+and(true, true) ➞ true
+
+and(false, true) ➞ false
+
+and(false, false) ➞ false
+```
+
+### Solution
+```sh
+ function and(a, b) {
+	
+  const andFunc = a && b
+
+    return andFunc
+  
+}
+```
+### Truth Table 
+1 hour 
+In the above example I have learned Truth Table
+
+#### Truth table of 2 variables
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    html{
+        text-align: center;
+    }
+table, th, td {
+  border:1px solid black;
+}
+th{
+    padding: 8px;
+    font-size: 24px;
+}
+td{
+    padding: 8px;
+    font-size: 22px;
+}
+</style>
+</head>
+<body>
+
+<h2>Truth Table</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>P</th>
+    <th>Q</th>
+    <th>!P</th>
+    <th>!Q</th>
+    <th>P or Q</th>
+    <th>P & Q</th>
+  </tr>
+  <tr>
+  <td>T</td>
+  <td>T</td>
+  <td>F</td>
+  <td>F</td>
+  <td>T</td>
+  <td>T</td>
+</tr>
+<tr>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td>
+    <td>T</td>
+    <td>F</td>
+</tr>
+<tr>
+    <td>F</td>
+    <td>T</td>
+    <td>T</td>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td>
+</tr>
+<tr>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+</tr>
+</table>
+</body>
+</html>
+
