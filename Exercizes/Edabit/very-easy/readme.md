@@ -201,20 +201,18 @@ and(false, false) ➞ false
   
 }
 ```
-### Truth Table 
+# Truth Table 
 1 hour 
 In the above example I have learned Truth Table
 
-#### Truth table of 2 variables
+### Truth Table for a Two Variable Proposition
 <!DOCTYPE html>
 <html>
     <head>
 <style>
-    html{
-        text-align: center;
-    }
 table, th, td {
   border:1px solid black;
+  text-align: center;
 }
 th{
     padding: 8px;
@@ -227,8 +225,6 @@ td{
 </style>
 </head>
 <body>
-
-<h2>Truth Table</h2>
 
 <table style="width:100%">
   <tr>
@@ -274,4 +270,106 @@ td{
 </table>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+table, th, td {
+  border:1px solid black;
+  text-align: center;
+}
+th{
+    padding: 8px;
+    font-size: 24px;
+}
+td{
+    padding: 8px;
+    font-size: 22px;
+}
+</style>
+</head>
+<script src="../very-easy/index.js"></script>
+<body>
+
+<h2>Truth Table for a Three Variable Proposition</h2>
+
+<table style="width:100%">
+    <tr>
+      <th>P</th>
+      <th>Q</th>
+      <th>R</th>
+      <th>!Q</th>
+      <th>P & !Q</th>
+      <th>R or (P & !Q)</th>
+    </tr>
+    <tr>
+    <td>T</td>
+    <td>T</td>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td>
+  </tr>
+  <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+  </tr>
+  <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+  </tr>
+  <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+  </tr>
+  <tr>
+      <td>F</td>
+    <td>T</td>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td>
+</tr>
+<tr>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>
+</tr>
+<tr>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td>
+    <td>T</td>
+    <td>F</td>
+    <td>T</td>
+</tr>
+<tr>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+</tr>
+  </table>
+</body>
+</html>
+
 
