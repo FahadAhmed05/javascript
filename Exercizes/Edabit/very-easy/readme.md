@@ -567,3 +567,51 @@ Whenever a non-primitive data type is defined, it refers a memory location where
 ### Differenec b/w stack & heap
 
 Heap memory is used by all the parts of the application whereas stack memory is used only by one thread of execution.
+
+## Check if an Integer is Divisible By Five
+Description : Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.
+
+### Example 
+```sh
+divisibleByFive(5) ➞ true
+
+divisibleByFive(-55) ➞ true
+
+divisibleByFive(37) ➞ false
+```
+### Solution
+```sh
+function divisibleByFive(n) {
+	if(n && n % 5 === 0){
+    return true
+  }else{
+    return false
+  }
+}
+```
+
+## Divides Evenly
+Description : Given two integers, a and b, return true if a can be divided evenly by b. Return false otherwise.
+
+### Example 
+```sh
+dividesEvenly(98, 7) ➞ true
+// 98/7 = 14
+
+dividesEvenly(85, 4) ➞ false
+// 85/4 = 21.25
+```
+### Solution
+```sh
+
+```
+
+### Introduction to GIT
+1. Local Machine Git 
+2. Server  -> GIT 
+--------------------------------
+
+  1. Stage   ->
+  2. Commit -> Local machine  
+  3. Push  -> Server Github 
+  4. dgfgdfgdfgdfgdgdgd
