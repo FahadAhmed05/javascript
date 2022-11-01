@@ -609,3 +609,19 @@ function dividesEvenly(a, b) {
     return a % b === 0 ? true : false	
 }
 ```
+
+## Return a String as an Integer
+Description : Create a function that takes a string and returns it as an integer.
+
+### Example 
+```sh
+stringInt("6") ➞ 6
+
+stringInt("1000") ➞ 1000
+
+stringInt("12") ➞ 12
+```
+### Solution
+```sh
+
+```

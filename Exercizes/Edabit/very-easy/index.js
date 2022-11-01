@@ -202,3 +202,5 @@ export function dividesEvenly(a, b) {
 
     return a % b === 0 ? true : false	
 }
+
+// Return a String as an Integer
