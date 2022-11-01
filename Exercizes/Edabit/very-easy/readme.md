@@ -530,7 +530,12 @@ function calculateFuel(n) {
 
 
 ## primitive vs non-primitive
+
 ### Primitive :- (String,Boolean,Number,BigInt,Null,Undefined,Symbol )
+
+### Stack memory
+
+Stack memory stores primitive types and the addresses of objects. The object values are stored in heap memory.
 
 ### Examples
 1. String (String is the collection of characters)
@@ -545,6 +550,11 @@ function calculateFuel(n) {
 
 ### (Non-Primitive or Reference ) :- Object (array, functions) also called object references. 
 
+Non-primitive data types are called reference types because they refer to objects.
+
+### heap memory
+Whenever a non-primitive data type is defined, it refers a memory location where the data is stored in heap memory i.e., it refers to the memory location where an object is placed. Therefore, a non-primitive data type variable is also called referenced data type or simply object reference variable.
+
 ### Examples
 1. Strings
 2. Arrays
@@ -553,3 +563,7 @@ function calculateFuel(n) {
 5. Object literals
 6. functions
 7. Dates
+
+### Differenec b/w stack & heap
+
+Heap memory is used by all the parts of the application whereas stack memory is used only by one thread of execution.
