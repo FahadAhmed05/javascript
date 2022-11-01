@@ -545,7 +545,8 @@ Stack memory stores primitive types and the addresses of objects. The object val
 5. Null
 6. Undefine
 7. Symbol
-8. Object
+
+Object is not a type of primitive data type. Unfortunately, in JavaScript, the data type of null is an object. You can consider it a bug in JavaScript that typeof null is an object.
 
 
 ### (Non-Primitive or Reference ) :- Object (array, functions) also called object references. 
@@ -614,4 +615,3 @@ dividesEvenly(85, 4) ➞ false
   1. Stage   ->
   2. Commit -> Local machine  
   3. Push  -> Server Github 
-  4. dgfgdfgdfgdfgdgdgd

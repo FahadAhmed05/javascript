@@ -163,4 +163,42 @@ export function maxNum(n1, n2) {
 export function makePair(num1, num2) {
   return [num1, num2];
 }
-console.log(makePair(1, 2));
+
+// Compare Strings by Count of Characters?
+export function comp(str1, str2) {
+    return str1.length === str2.length ? true : false
+}
+
+// // Is the string is empty 
+export function isEmpty(s) {
+	 return s == "" ? true : false
+}
+
+// Check if an Integer is Divisible By Five
+export function divisibleByFive(n) {
+	if(n && n % 5 === 0){
+    return true
+  }else{
+    return false
+  }
+}
+
+// Multiple 100
+export function divisible(num) {
+	if( num % 100 === 0){
+    return true
+  }else{
+    return false
+  }
+}
+
+// Recursion: Length of a String 
+export function length(str) {
+	 return str.length; 
+}
+
+// Divides Evenly
+export function dividesEvenly(a, b) {
+
+    return a % b === 0 ? true : false	
+}

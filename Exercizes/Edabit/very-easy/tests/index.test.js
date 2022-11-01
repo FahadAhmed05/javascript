@@ -19,6 +19,12 @@ import {
   calculateFuel,
   maxNum,
   makePair,
+  comp,
+  isEmpty,
+  divisibleByFive,
+  divisible,
+  dividesEvenly,
+  length,
 } from "..";
 
 class Test {
@@ -230,3 +236,73 @@ Test.assertSimilar(makePair(1, 2), [1, 2]);
 Test.assertSimilar(makePair(21, 82), [21, 82]);
 Test.assertSimilar(makePair(4213, 526), [4213, 526]);
 // Pair Management test case end
+
+// Compare Strings by Count of Characters test case starts
+Test.assertEquals(comp("AB", "CD"), true)
+Test.assertEquals(comp("ABC", "DE"), false)
+Test.assertEquals(comp("hello", "edabit"), false)
+Test.assertEquals(comp("meow", "woof"), true)
+Test.assertEquals(comp("jrnvjrnnt", "cvjknfjvmfvnfjn"), false)
+Test.assertEquals(comp("jkvnjrt", "krnf"), false)
+Test.assertEquals(comp("Facebook", "Snapchat"), true)
+// Compare Strings by Count of Characters test case end
+
+// Is the string is empty test case starts
+Test.assertEquals(isEmpty(""), true)
+Test.assertEquals(isEmpty(" "), false)
+Test.assertEquals(isEmpty("            "), false)
+Test.assertEquals(isEmpty("38215"), false)
+Test.assertEquals(isEmpty("afjabsdf"), false)
+Test.assertEquals(isEmpty("!?@&"), false)
+// Is the string is empty test case end
+
+// Check if an Integer is Divisible By Five test cae starts
+Test.assertEquals(divisibleByFive(7), false)
+Test.assertEquals(divisibleByFive(5), true)
+Test.assertEquals(divisibleByFive(15), true)
+Test.assertEquals(divisibleByFive(33), false)
+Test.assertEquals(divisibleByFive(-18), false)
+Test.assertEquals(divisibleByFive(999), false)
+Test.assertEquals(divisibleByFive(2), false)
+// Check if an Integer is Divisible By Five test case end
+
+// Multiple 100 test case starts
+Test.assertEquals(divisible(1), false)
+Test.assertEquals(divisible(100), true)
+Test.assertEquals(divisible(1000), true)
+Test.assertEquals(divisible(111000), true)
+Test.assertEquals(divisible(-1), false, "Don't forget negatives.")
+Test.assertEquals(divisible(0), true, "Cover the 0 cases.")
+Test.assertEquals(divisible(-100), true, "-100 is divisible by 100.")
+// Multiple 100 test case end
+
+// Recursion: Length of a String test case starts
+Test.assertEquals(length('shipment'), 8)
+Test.assertEquals(length('apple'), 5)
+Test.assertEquals(length('make'), 4)
+Test.assertEquals(length('a'), 1)
+Test.assertEquals(length(''), 0)
+// Recursion: Length of a String test case end
+
+// Divides Evenly test case starts
+Test.assertEquals(dividesEvenly(98, 7), true)
+Test.assertEquals(dividesEvenly(87, 49), false)
+Test.assertEquals(dividesEvenly(34, 14), false)
+Test.assertEquals(dividesEvenly(78, 6), true)
+Test.assertEquals(dividesEvenly(30, 4), false)
+Test.assertEquals(dividesEvenly(87, 73), false)
+Test.assertEquals(dividesEvenly(74, 7), false)
+Test.assertEquals(dividesEvenly(87, 29), true)
+Test.assertEquals(dividesEvenly(48, 24), true)
+Test.assertEquals(dividesEvenly(99, 20), false)
+Test.assertEquals(dividesEvenly(98, 49), true)
+Test.assertEquals(dividesEvenly(100, 6), false)
+Test.assertEquals(dividesEvenly(64, 4), true)
+Test.assertEquals(dividesEvenly(70, 35), true)
+Test.assertEquals(dividesEvenly(38, 38), true)
+Test.assertEquals(dividesEvenly(29, 3), false)
+Test.assertEquals(dividesEvenly(20, 8), false)
+Test.assertEquals(dividesEvenly(66, 50), false)
+Test.assertEquals(dividesEvenly(95, 1), true)
+Test.assertEquals(dividesEvenly(58, 2), true)
+// Divides Evenly test case end
